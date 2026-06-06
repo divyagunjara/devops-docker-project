@@ -1,6 +1,6 @@
 # DevOps Docker Project
 
-This is my first DevOps project built using Python, Flask, and Docker.
+This is my first DevOps project built using Python, Flask, Docker, Git, and GitHub.
 
 ## Technologies Used
 - Python
@@ -9,26 +9,32 @@ This is my first DevOps project built using Python, Flask, and Docker.
 - Git
 - GitHub
 
-## Project Features
+## Features
 - Flask web application
-- Dockerized application
-- Containerized deployment
-- Git version control
+- Dockerized deployment
+- Containerized execution
+- Version control with Git
+- Hosted on GitHub
 
-## How to Run the Project
+## Project Structure
 
-1. Clone repository
+Devops Project
+│── app.py
+│── Dockerfile
+│── requirements.txt
+│── .gitignore
+│── README.md
 
-git clone <repository-url>
+## How to Run
 
-2. Build Docker image
+### Build Docker Image
 
 docker build -t my-first-devops-app .
 
-3. Run Docker container
+### Run Docker Container
 
 docker run -p 5000:5000 my-first-devops-app
 
-4. Open browser
+### Open Browser
 
-http://localhost:5000git remote add origin https://github.com/yourusername/devops-docker-project.git
+http://localhost:5000
